@@ -9,7 +9,7 @@ const app = express();
 // ✅ Allow requests from your frontend & localhost
 const allowedOrigins = [
   "http://localhost:3005", // Local Dev
-  "https://your-frontend-domain.com", // Your Deployed Frontend
+  "https://pokemon-tan-tau.vercel.app", // Your Deployed Frontend
 ];
 
 app.use(
